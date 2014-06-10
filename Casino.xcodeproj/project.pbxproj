@@ -14,6 +14,8 @@
 		484960431946FEE8004B4547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484960411946FEE8004B4547 /* Main.storyboard */; };
 		484960451946FEE8004B4547 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484960441946FEE8004B4547 /* Images.xcassets */; };
 		484960511946FEE8004B4547 /* CasinoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484960501946FEE8004B4547 /* CasinoTests.m */; };
+		4849605C1947012F004B4547 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849605B1947012F004B4547 /* CardView.m */; };
+		4849605F19470290004B4547 /* ComingSoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849605E19470290004B4547 /* ComingSoonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,10 @@
 		4849604A1946FEE8004B4547 /* CasinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4849604F1946FEE8004B4547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484960501946FEE8004B4547 /* CasinoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasinoTests.m; sourceTree = "<group>"; };
+		4849605A1947012F004B4547 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		4849605B1947012F004B4547 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		4849605D19470290004B4547 /* ComingSoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComingSoonViewController.h; sourceTree = "<group>"; };
+		4849605E19470290004B4547 /* ComingSoonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComingSoonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +94,11 @@
 				4849603C1946FEE8004B4547 /* MasterViewController.m */,
 				4849603E1946FEE8004B4547 /* DetailViewController.h */,
 				4849603F1946FEE8004B4547 /* DetailViewController.m */,
+				4849605A1947012F004B4547 /* CardView.h */,
+				4849605B1947012F004B4547 /* CardView.m */,
 				484960411946FEE8004B4547 /* Main.storyboard */,
+				4849605D19470290004B4547 /* ComingSoonViewController.h */,
+				4849605E19470290004B4547 /* ComingSoonViewController.m */,
 				484960441946FEE8004B4547 /* Images.xcassets */,
 				484960341946FEE8004B4547 /* Supporting Files */,
 			);
@@ -222,7 +232,9 @@
 			files = (
 				4849603A1946FEE8004B4547 /* AppDelegate.m in Sources */,
 				4849603D1946FEE8004B4547 /* MasterViewController.m in Sources */,
+				4849605C1947012F004B4547 /* CardView.m in Sources */,
 				484960371946FEE8004B4547 /* main.m in Sources */,
+				4849605F19470290004B4547 /* ComingSoonViewController.m in Sources */,
 				484960401946FEE8004B4547 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
