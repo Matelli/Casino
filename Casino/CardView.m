@@ -44,12 +44,14 @@
 -(void)displayValue
 {
     self.image = self.cardValueImage;
+    self.contentMode = UIViewContentModeScaleAspectFit;
     _isDisplayingValue = YES;
 }
 
 -(void)displayCover
 {
     self.image = self.cardCoverImage;
+    self.contentMode = UIViewContentModeScaleAspectFit;
     _isDisplayingValue = NO;
 }
 

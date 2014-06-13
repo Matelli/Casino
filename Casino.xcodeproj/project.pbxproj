@@ -12,10 +12,14 @@
 		4849603D1946FEE8004B4547 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849603C1946FEE8004B4547 /* MasterViewController.m */; };
 		484960401946FEE8004B4547 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849603F1946FEE8004B4547 /* DetailViewController.m */; };
 		484960431946FEE8004B4547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484960411946FEE8004B4547 /* Main.storyboard */; };
-		484960451946FEE8004B4547 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484960441946FEE8004B4547 /* Images.xcassets */; };
 		484960511946FEE8004B4547 /* CasinoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484960501946FEE8004B4547 /* CasinoTests.m */; };
 		4849605C1947012F004B4547 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849605B1947012F004B4547 /* CardView.m */; };
 		4849605F19470290004B4547 /* ComingSoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849605E19470290004B4547 /* ComingSoonViewController.m */; };
+		484960D419471DF3004B4547 /* Blackjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484960D319471DF3004B4547 /* Blackjack.swift */; };
+		484960D6194720D6004B4547 /* PlayingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484960D5194720D6004B4547 /* PlayingCards.swift */; };
+		484960D81947426D004B4547 /* BlackjackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484960D71947426D004B4547 /* BlackjackViewController.swift */; };
+		48ECCAD11948584500099FFF /* Card+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECCAD01948584500099FFF /* Card+Image.swift */; };
+		48ECCAD31948596400099FFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48ECCAD21948596400099FFF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		4849603E1946FEE8004B4547 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4849603F1946FEE8004B4547 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		484960421946FEE8004B4547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		484960441946FEE8004B4547 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4849604A1946FEE8004B4547 /* CasinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4849604F1946FEE8004B4547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484960501946FEE8004B4547 /* CasinoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasinoTests.m; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		4849605B1947012F004B4547 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		4849605D19470290004B4547 /* ComingSoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComingSoonViewController.h; sourceTree = "<group>"; };
 		4849605E19470290004B4547 /* ComingSoonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComingSoonViewController.m; sourceTree = "<group>"; };
+		484960D219471DF3004B4547 /* Casino-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Casino-Bridging-Header.h"; sourceTree = "<group>"; };
+		484960D319471DF3004B4547 /* Blackjack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
+		484960D5194720D6004B4547 /* PlayingCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCards.swift; sourceTree = "<group>"; };
+		484960D71947426D004B4547 /* BlackjackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackjackViewController.swift; sourceTree = "<group>"; };
+		484960D919474933004B4547 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		48ECCAD01948584500099FFF /* Card+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Card+Image.swift"; sourceTree = "<group>"; };
+		48ECCAD21948596400099FFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +109,14 @@
 				484960411946FEE8004B4547 /* Main.storyboard */,
 				4849605D19470290004B4547 /* ComingSoonViewController.h */,
 				4849605E19470290004B4547 /* ComingSoonViewController.m */,
-				484960441946FEE8004B4547 /* Images.xcassets */,
+				484960D319471DF3004B4547 /* Blackjack.swift */,
+				484960D5194720D6004B4547 /* PlayingCards.swift */,
+				48ECCAD01948584500099FFF /* Card+Image.swift */,
+				484960D71947426D004B4547 /* BlackjackViewController.swift */,
+				484960D919474933004B4547 /* Playground.playground */,
+				48ECCAD21948596400099FFF /* Images.xcassets */,
 				484960341946FEE8004B4547 /* Supporting Files */,
+				484960D219471DF3004B4547 /* Casino-Bridging-Header.h */,
 			);
 			path = Casino;
 			sourceTree = "<group>";
@@ -212,7 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				484960431946FEE8004B4547 /* Main.storyboard in Resources */,
-				484960451946FEE8004B4547 /* Images.xcassets in Resources */,
+				48ECCAD31948596400099FFF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,12 +246,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484960D419471DF3004B4547 /* Blackjack.swift in Sources */,
 				4849603A1946FEE8004B4547 /* AppDelegate.m in Sources */,
 				4849603D1946FEE8004B4547 /* MasterViewController.m in Sources */,
 				4849605C1947012F004B4547 /* CardView.m in Sources */,
 				484960371946FEE8004B4547 /* main.m in Sources */,
 				4849605F19470290004B4547 /* ComingSoonViewController.m in Sources */,
+				484960D6194720D6004B4547 /* PlayingCards.swift in Sources */,
+				48ECCAD11948584500099FFF /* Card+Image.swift in Sources */,
 				484960401946FEE8004B4547 /* DetailViewController.m in Sources */,
+				484960D81947426D004B4547 /* BlackjackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,9 +372,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Casino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Casino/Casino-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,9 +387,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Casino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Casino/Casino-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -424,6 +451,7 @@
 				484960561946FEE8004B4547 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		484960571946FEE8004B4547 /* Build configuration list for PBXNativeTarget "CasinoTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +460,7 @@
 				484960591946FEE8004B4547 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

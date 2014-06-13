@@ -37,13 +37,9 @@
 #pragma mark - Table View
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    ComingSoonViewController * viewController = [[ComingSoonViewController alloc] init];
-    
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        [self.detailViewController.navigationController pushViewController:viewController animated:YES];
-    }
-    else {
+    if (indexPath.row != 0)
+    {
+        ComingSoonViewController * viewController = [[ComingSoonViewController alloc] init];
         [self.navigationController pushViewController:viewController animated:YES];
     }
 }
